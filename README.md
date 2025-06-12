@@ -46,7 +46,7 @@ This repository contains four fundamental Object-Oriented Programming (OOP) task
 ## 💡 Technologies Used
 - Language: C#
 - Platform: .NET Console App
-- IDE: Visual Studio / VS Code
+- IDE: Visual Studio
 
 ---
 
