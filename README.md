@@ -1,4 +1,4 @@
-# 🧠 OOP Home Task
+# OOP Home Task
 
 This repository contains four fundamental Object-Oriented Programming (OOP) tasks written in **C#**. Each task demonstrates core principles such as encapsulation, constructors, properties, and method definitions.
 
