@@ -59,7 +59,7 @@ Kun, oy va yil ma’lumotlarini saqlaydi va sanani `DD/MM/YYYY` formatida chiqar
 - Formatlangan sanani chiqarish (`ToString()`)
 
 ### 🖼️ Skrinshot:
-![Date Screenshot](./Pictures/pic1.jpg)
+![Date Screenshot](.PracticeTwo/Pictures/pic1.jpg)
 
 ---
 
