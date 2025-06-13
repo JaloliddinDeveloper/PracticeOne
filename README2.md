@@ -19,7 +19,7 @@ Kitob ma’lumotlarini saqlash va ularni ko‘rsatish uchun yaratilgan oddiy das
 - Kitob yangi chop etilganmi (2010 yildan keyinmi) tekshirish
 
 ### 🖼️ Skrinshot:
-![Book Screenshot](./screenshots/book.png)
+![Book Screenshot](https://github.com/JaloliddinDeveloper/PracticeOne/blob/main/PracticeTwo/Pictures/pic1.jpg)
 
 ---
 
@@ -39,7 +39,8 @@ Foydalanuvchidan aylana radiusini qabul qilib, uning yuzasi, diametri va uzunlig
 - Uzunlik hisoblash (`GetCircumference`)
 
 ### 🖼️ Skrinshot:
-![Circle Screenshot](./screenshots/circle.png)
+![Circle Screenshot](https://github.com/JaloliddinDeveloper/PracticeOne/blob/main/PracticeTwo/Pictures/pic2.jpg)
+![Circle Screenshot](https://github.com/JaloliddinDeveloper/PracticeOne/blob/main/PracticeTwo/Pictures/pic22.jpg)
 
 ---
 
@@ -80,4 +81,4 @@ Foydalanuvchining bank hisobini boshqarish uchun yaratilgan tizim. Hisobga pul q
 - Xatoliklarni ko‘rsatish: manfiy miqdor, yetarli mablag‘ yo‘qligi, hisob muzlatilganligi
 
 ### 🖼️ Skrinshot:
-![BankAccount Screenshot](./screenshots/bankaccount.png)
+![Circle Screenshot](https://github.com/JaloliddinDeveloper/PracticeOne/blob/main/PracticeTwo/Pictures/pic4.jpg)
