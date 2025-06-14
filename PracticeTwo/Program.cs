@@ -45,7 +45,7 @@ using PracticeTwo.Classes;
 
 //Task 4
 
-var user = new BankAccount(accountId:2585, initialBalance: 1000, userName: "Jaloliddin Mahkamov");
+var user = new BankAccount(initialBalance: 1000, userName: "Jaloliddin Mahkamov");
 
 Console.WriteLine(user.Deposit(500));
 
