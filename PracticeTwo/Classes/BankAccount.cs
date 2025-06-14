@@ -2,14 +2,14 @@
 {
     internal class BankAccount
     {
-        private int accountId;
+        public int AccountId { get; }
         private decimal balance;
         private string UserName;
         private bool IsFrozen = false;
 
-        public BankAccount(int accountId, decimal initialBalance, string userName)
+        public BankAccount(decimal initialBalance, string userName)
         {
-            this.accountId = accountId;
+            AccountId= new Random().Next(1000, 9999);
             this.balance = initialBalance;
             this.UserName = userName;
         }
@@ -25,12 +25,12 @@
                 return "Enter pozitive amount";
             }
             balance += amount;
-            return $"Deposited {amount:C} to account {accountId}. New balance: {balance:C}";
+            return $"Deposited {amount:C} to account {AccountId}. New balance: {balance:C}";
         }
 
-        public void GetBalance()=>
+        public void GetBalance() =>
             Console.WriteLine($"UserName: {UserName} Balance: {balance}");
-        
+
         public string Withdraw(decimal amount)
         {
             if (IsFrozen)
@@ -46,19 +46,19 @@
                 return "Insufficient funds";
             }
             balance -= amount;
-            return $"Withdrew {amount:C} from account {accountId}. New balance: {balance:C}";
+            return $"Withdrew {amount:C} from account {AccountId}. New balance: {balance:C}";
         }
 
         public string FreezeAccount()
         {
             IsFrozen = true;
-            return $"Account {accountId} is now frozen.";
+            return $"Account {AccountId} is now frozen.";
         }
 
         public string UnfreezeAccount()
         {
             IsFrozen = false;
-            return $"Account {accountId} is now unfrozen.";
+            return $"Account {AccountId} is now unfrozen.";
         }
     }
 }
